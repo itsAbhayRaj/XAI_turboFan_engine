@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import pandas as pd
 import numpy as np
 from sklearn.ensemble import RandomForestRegressor
@@ -69,7 +68,6 @@ for dataset in datasets:
     pd.to_pickle(model, model_path)
     
     print(f"Model for {dataset} saved at {model_path}\n")
-=======
 import pandas as pd
 import numpy as np
 from sklearn.ensemble import RandomForestRegressor
@@ -140,4 +138,3 @@ for dataset in datasets:
     pd.to_pickle(model, model_path)
     
     print(f"Model for {dataset} saved at {model_path}\n")
->>>>>>> 2448e220b26ab4380d18f13d76703523981946b8
